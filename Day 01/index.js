@@ -3,16 +3,23 @@ console.log("I love JavaScript")
 
 // Variables in JavaScript
 
-fullName = "Rampravesh Rana"; // string
-age = 20; // number
-address = "Jharkhand";
-x = null; // null
-y = undefined; // undefined
-isFollow = false; // boolean 
+// let : Variable cannot be re-declared but can be updated. A block scope variable.
 
-console.log(fullName);
-console.log(age);
-console.log(address);
+// const : Variable cannot be re-declared and updated. A block scope variable.
+
+// var : Variable can be re-declared and updated. A global scope variable.
+
+// Example of let
+let x = 5;
+x = 10;
 console.log(x);
+
+// Example of const
+const y = 25;
 console.log(y);
-console.log(isFollow);
+
+// Example of var
+var z = 10;
+var z = 25;
+var z = 100;
+console.log(z);
