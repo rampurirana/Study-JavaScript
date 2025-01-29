@@ -1,18 +1,15 @@
 // 1. Primitive data types
 
 // A. String : Represents a sequence of number
-
 let fullName = "Rampravesh Rana";
 console.log(fullName);
 
 // B. Number : Represents both integer and float number
-
 let age = 10;
 let price = 85.67;
 console.log(age, price);
 
 // C. Boolean : Represents either true of false
-
 let isStudent= true;
 console.log(isStudent);
 
