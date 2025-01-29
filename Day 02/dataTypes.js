@@ -28,3 +28,39 @@ console.log(bigNumber);
 // G. Symbol : Represents a unique identifier
 let sym = Symbol("Rana");
 console.log(sym);
+
+
+// 2. Non Premitive data types
+
+// A. Objects : Objects are collection of key pair value
+let student = {
+    name: "Rampravesh Rana",
+    age: 20,
+    cgpa: 7.5
+};
+console.log(student);
+
+// Update values in objects
+student.name = "Rampuri Rana";
+console.log(student);
+
+// Print a single values
+// Method one
+console.log(student["name"]);
+
+// method two
+console.log(student.age);
+
+// B. Array : A special type of objects that holds an ordered list of values
+let fruits = ["Apple", "Banana"];
+console.log(fruits);
+
+// C. Function : A reusable block of code
+function greet() {
+    return "Hello!";
+}
+console.log(greet);
+
+// D. Date : Represents date and time
+let today = new Date();
+console.log(today);
