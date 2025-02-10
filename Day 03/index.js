@@ -47,3 +47,15 @@ console.log("a ** b =", a ** b); // Exponentiation
     console.log("z =",z);
     console.log("z-- =",z--, "First Return the Original vlaue");
     console.log("z-- =",z--, " then decrease the value by 1");
+
+// Assignment Operator : Used to assign values to operators
+
+let R = 10;
+
+console.log("R =",R);
+console.log("Add and assign [R += 3 ] =", R += 3); // R = R + 3
+console.log("Subtract and assign [R -= 3 ] =", R -= 3); // R = R - 3
+console.log("Multiply and assign [R *= 3 ] =", R *= 3); // R = R * 3
+console.log("Divide and assign [R /= 2 ] =", R /= 2); // R = R / 2
+console.log("Modulus and assign [R %= 4 ] =", R %= 4); // R = R % 4
+console.log("Exponentiate and assign [R **= 3 ] =", R **= 3); // R = R ** 3
