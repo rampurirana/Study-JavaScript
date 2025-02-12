@@ -15,4 +15,4 @@ console.log(cond3 || cond4);
 // NOT (!)
 let c = 10;
 cond5 = c==10;
-// console.log(!(cond5));
+console.log(!(cond5));
