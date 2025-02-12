@@ -1,5 +1,4 @@
 // Comparison Operator : Use to compare two values
-
 let a = 10;
 let b = 20;
 
