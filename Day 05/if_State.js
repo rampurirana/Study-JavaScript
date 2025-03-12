@@ -13,3 +13,15 @@ if (votAge >= 18){
 } else {
     console.log("You are not eligible for vote");
 }
+
+// 3. if...esle if...esle statement : Checks the multiple conditions in sequence
+let marks = 85;
+if (marks >= 80){
+    console.log("Grade : A");
+} else if(marks >= 60){
+    console.log("Grade : B");
+} else if(marks >= 40){
+    console.log("Grade : C");
+} else {
+    console.log("Grade : F")
+}
