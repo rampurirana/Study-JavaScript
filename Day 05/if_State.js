@@ -25,3 +25,8 @@ if (marks >= 80){
 } else {
     console.log("Grade : F")
 }
+
+// 4. Ternary Operator : A shorthland for if...else statement
+let driveAge = 23;
+let check = (age >= 18) ? "Drive" : "Not Drive";
+console.log(check);
