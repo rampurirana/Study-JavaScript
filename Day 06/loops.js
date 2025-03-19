@@ -11,3 +11,10 @@ while (x < 16){
     console.log(x);
     x++;
 }
+
+// 3. do while loop : Executes at least once time before checking the conditions
+let a = 100;
+do {
+    console.log(a);
+    a++;
+} while(a < 106);
