@@ -25,3 +25,9 @@ for(let key in name){
     // console.log(key); Print only key
     console.log(name[key]); // Print the value of key
 }
+
+// 5. for of loop : Used to iterate over iterable objects like Array, string etc.
+let arr = [10, 20, 30, 40, 50];
+for (let value of arr){
+    console.log(value);
+}
