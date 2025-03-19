@@ -18,3 +18,10 @@ do {
     console.log(a);
     a++;
 } while(a < 106);
+
+// 4. for in loop : Used to iterate over object properties
+let name = {fullName : "Rampravesh Rana", age : 20, rollNO : 1323161};
+for(let key in name){
+    // console.log(key); Print only key
+    console.log(name[key]); // Print the value of key
+}
